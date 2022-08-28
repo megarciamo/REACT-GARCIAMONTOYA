@@ -1,9 +1,9 @@
 .container{
-  border: solid red 4px;
+  background-color: gray;
   margin: 20px;
   padding: 20px;
 }
 
 .greeting{
-  background-color: red;
+  background-color: lightgray;
 }
