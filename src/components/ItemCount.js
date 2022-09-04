@@ -30,10 +30,10 @@ const ItemCount = ( {stock, initial} ) => {
     return (
     <>  
    
-    <strong>Stock: {stock}</strong>
-    <button onClick={onAdd} className='btn mx-5 my-5'>+</button>
-    <strong> {counter}</strong>
-    <button onClick={onSub} className='btn mx-5 my-5'>-</button>
+    <strong className ='my-3'>Stock: {stock}</strong>
+    <button onClick={onAdd} className='btn mx-5 my-50'>+</button>
+    <strong className ='my-3'> {counter}</strong>
+    <button onClick={onSub} className='btn mx-5 my-50'>-</button>
 
     </>
   )
